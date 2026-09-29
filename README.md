@@ -15,7 +15,7 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/status-coming%20in%20the%20next%20few%20months-7c3aed?style=for-the-badge" alt="Coming in the next few months">
+  <img src="https://img.shields.io/badge/status-coming%20soon-7c3aed?style=for-the-badge" alt="Coming soon">
   <img src="https://img.shields.io/badge/precision-W4A4%20%7C%20W1.58A4-0f766e?style=for-the-badge" alt="W4A4 and W1.58A4">
 </p>
 
@@ -23,6 +23,10 @@
 
 <p align="center">
   <img src="assets/dit-comparison-01.png" alt="DiT visual comparison for full precision, direct QAT, RobuQ, and JustQuant" width="960">
+</p>
+
+<p align="center">
+  <img src="assets/flux-family-results.png" alt="FLUX.1-schnell and FLUX.1-dev visual comparisons for BF16, ConvRot, SVDQuant, PTQ, QAT, and JustQuant" width="960">
 </p>
 
 ## The idea
@@ -48,6 +52,14 @@ Our answer is a training recipe based on **progressive distillation**. The stude
   <img src="assets/theseus-qad.png" alt="Theseus QAD progressive distillation diagram" width="960">
 </p>
 
+## Evaluation snapshot
+
+The paper's DiT-XL/2 and FLUX W4A4 tables summarize the quality and deployment trade-offs behind the method.
+
+<p align="center">
+  <img src="assets/dit-flux-tables.png" alt="DiT-XL/2 and FLUX W4A4 evaluation tables from the JustQuant paper" width="960">
+</p>
+
 ## Paper
 
 **JustQuant: You Don't Need Smoothing, SVD, or Rotation for 4-Bit Activation Quantization**
@@ -59,18 +71,13 @@ Kaicheng Yang*, Kaisen Yang*, Chunyu Liu*, Xianglong Yan, Haotong Qin, Junyi Wu,
 - [PDF](https://arxiv.org/pdf/2609.33601)
 - [Interactive project page](https://racoonykc.github.io/projects/justquant/)
 
+## Research context
+
+This project grew out of previous work with **[Yulun Zhang (张宇伦)](https://yulunzhang.com/)** and current work with **[Weiyang Liu (刘威杨)](https://wyliu.com/)**.
+
 ## Open-source plan
 
-We are preparing the release in stages. The first public release is **coming in the next few months**.
-
-| Planned release | What it will include |
-| --- | --- |
-| **Open weights** | Quantized checkpoints and the evaluation-ready model configurations used in the paper. |
-| **Training framework** | Progressive-distillation recipes, configuration files, and scripts for reproducing the main experiments. |
-| **Inference code** | Plain low-bit operators, packing utilities, evaluation entry points, and deployment examples. |
-| **Reproduction materials** | Benchmark commands, tables, ablations, and notes on hardware and precision formats. |
-
-The repository is intentionally starting with the paper overview and visual materials. Code and weights will arrive as each component is cleaned up for reproducible use.
+Open weights, the training framework, inference code, and reproduction materials are **coming soon**.
 
 ## Citation
 
@@ -88,7 +95,7 @@ The repository is intentionally starting with the paper overview and visual mate
 
 ## Acknowledgements
 
-JustQuant was developed through work with **[Yulun Zhang](https://yulunzhang.com/)** and **[Weiyang Liu](https://wyliu.com/)**. We thank the colleagues and open-source communities whose tools made the experiments possible.
+We thank the colleagues and open-source communities whose tools made the experiments possible.
 
 <div align="center">
 
