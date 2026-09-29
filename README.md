@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/justquant-mark.svg" width="150" alt="JustQuant mark">
+<img src="assets/justquant-mark.png" width="150" alt="JustQuant trident mark">
 
 # JustQuant
 
@@ -70,10 +70,6 @@ Kaicheng Yang*, Kaisen Yang*, Chunyu Liu*, Xianglong Yan, Haotong Qin, Junyi Wu,
 - [arXiv abstract](https://arxiv.org/abs/2609.33601)
 - [PDF](https://arxiv.org/pdf/2609.33601)
 - [Interactive project page](https://racoonykc.github.io/projects/justquant/)
-
-## Research context
-
-This project grew out of previous work with **[Yulun Zhang (张宇伦)](https://yulunzhang.com/)** and current work with **[Weiyang Liu (刘威杨)](https://wyliu.com/)**.
 
 ## Open-source plan
 
