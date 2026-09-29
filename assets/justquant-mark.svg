@@ -1,0 +1,27 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">JustQuant mark</title>
+  <desc id="desc">A crystalline J built from four low-bit blocks and a flowing spectrum.</desc>
+  <defs>
+    <linearGradient id="spectrum" x1="92" y1="100" x2="628" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6FB5"/>
+      <stop offset=".28" stop-color="#A78BFA"/>
+      <stop offset=".55" stop-color="#60A5FA"/>
+      <stop offset=".78" stop-color="#34D399"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="170" y1="130" x2="564" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".18"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.45 0 1 0 0 0.32 0 0 1 0 0.95 0 0 0 .45 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+  </defs>
+  <rect width="720" height="720" rx="156" fill="#0B0B10"/>
+  <path d="M170 143H548V219H337V466C337 522 307 552 254 552C216 552 185 535 164 504L219 452C229 466 240 474 255 474C273 474 284 462 284 438V219H170V143Z" fill="url(#spectrum)" filter="url(#glow)"/>
+  <path d="M170 143H548V219H337V466C337 522 307 552 254 552C216 552 185 535 164 504L219 452C229 466 240 474 255 474C273 474 284 462 284 438V219H170V143Z" stroke="url(#edge)" stroke-width="3"/>
+  <rect x="170" y="143" width="378" height="76" rx="8" fill="url(#spectrum)" opacity=".18"/>
+  <circle cx="548" cy="181" r="13" fill="#fff" opacity=".9"/>
+</svg>
